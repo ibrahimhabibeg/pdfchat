@@ -1,0 +1,25 @@
+[project]
+name = "pdfchat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ibrahim Habib", email = "ibrahimhabib.eg@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "llama-index-embeddings-huggingface>=0.5.3",
+    "llama-index-llms-ollama>=0.5.4",
+    "marker-pdf>=1.6.2",
+    "ollama>=0.4.7",
+    "pypdf2>=3.0.1",
+    "rich>=14.0.0",
+    "typer>=0.15.2",
+]
+
+[project.scripts]
+pdfchat = "pdfchat:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
