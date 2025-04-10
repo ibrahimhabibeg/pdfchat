@@ -1,11 +1,10 @@
-<center><h1>pdfchat</h1></center>
+<h1 align="center">pdfchat</h1>
 
 <p align="center">CLI app to quickly chat with your PDFs locally</p>
 
 <p align="center">
   <a href="https://pypi.org/project/pdfchat/"><img src="https://img.shields.io/pypi/v/pdfchat?color=blue&label=PyPI&logo=pypi" alt="PyPI version"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
-  <a href="https://pypi.org/project/pdfchat/"><img src="https://img.shields.io/pypi/pyversions/pdfchat.svg?logo=python&label=Python%20Versions" alt="Python Versions"></a>
 </p>
 
 <hr/>
@@ -43,6 +42,14 @@ GUI or web interface and security as it runs locally on your machine and your da
 the [Ollama website](https://ollama.com/).
 Make sure you have the required models installed. You can check the available models on
 the [Ollama website](https://ollama.com/search).
+
+You also need to have `marker-pdf` installed. You can install it using `pip`:
+
+```bash
+pip install marker-pdf
+```
+
+You can also install `marker-pdf` using `pipx`.
 
 ### Install `pdfchat`
 
