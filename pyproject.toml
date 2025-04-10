@@ -1,6 +1,6 @@
 [project]
 name = "pdfchat"
-version = "0.1.0"
+version = "0.1.1"
 description = "CLI app to quickly chat with your PDFs locally"
 readme = "README.md"
 authors = [
