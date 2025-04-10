@@ -1,6 +1,6 @@
 <center><h1>pdfchat</h1></center>
 
-<p align="center">Interact with your PDF documents using natural language.</p>
+<p align="center">CLI app to quickly chat with your PDFs locally</p>
 
 <p align="center">
   <a href="https://pypi.org/project/pdfchat/"><img src="https://img.shields.io/pypi/v/pdfchat?color=blue&label=PyPI&logo=pypi" alt="PyPI version"></a>
@@ -39,8 +39,10 @@ GUI or web interface and security as it runs locally on your machine and your da
 
 ### Prerequisites
 
-`pdfchat` assumes you have Ollama installed. If you haven't installed it yet, follow the instructions on the [Ollama website](https://ollama.com/).
-Make sure you have the required models installed. You can check the available models on the [Ollama website](https://ollama.com/search).
+`pdfchat` assumes you have Ollama installed. If you haven't installed it yet, follow the instructions on
+the [Ollama website](https://ollama.com/).
+Make sure you have the required models installed. You can check the available models on
+the [Ollama website](https://ollama.com/search).
 
 ### Install `pdfchat`
 
@@ -60,18 +62,24 @@ To start a chat session with a PDF file, run:
 pdfchat <path_to_pdf>
 ```
 
+Note: If it is your first time running the app, it will take a few seconds (depending on your internet speed) to
+download PDF parsing and OCR models.
+
 ### Options
 
-- `--model` or `-m`: Ollama model to use (must be installed). Defaults to the first model returned by `ollama list`. (ex: llama3.1:8b)
+- `--model` or `-m`: Ollama model to use (must be installed). Defaults to the first model returned by `ollama list`. (
+  ex: llama3.1:8b)
 - `--url` or `-u`: Ollama base URL. Defaults to 'http://localhost:11434'
 - `--pages` or `-p`: The pdf pages to parse. Defaults to all pages. Ex: 1,2,3 or 1-3 or 1-3,5-7. Defaults to all pages.
 
 ### Help
+
 To see all available options, run:
 
 ```bash
 pdfchat --help
 ```
+
 This will display the help message with all available options and their descriptions.
 
 ### Example
@@ -92,4 +100,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Author
 
-Developed by Ibrahim Habib. You can contact me through [LinkedIn](https://www.linkedin.com/in/ibrahimhabibeg/) or [Email](mailto:ibrahimhabib.eg@gmail.com). 
+Developed by Ibrahim Habib. You can contact me through [LinkedIn](https://www.linkedin.com/in/ibrahimhabibeg/)
+or [Email](mailto:ibrahimhabib.eg@gmail.com). 

@@ -1,7 +1,7 @@
 [project]
 name = "pdfchat"
 version = "0.1.0"
-description = "Add your description here"
+description = "CLI app to quickly chat with your PDFs locally"
 readme = "README.md"
 authors = [
     { name = "Ibrahim Habib", email = "ibrahimhabib.eg@gmail.com" }
