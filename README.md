@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://pypi.org/project/pdfchat/"><img src="https://img.shields.io/pypi/v/pdfchat?color=blue&label=PyPI&logo=pypi" alt="PyPI version"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
+  <a href="https://github.com/ibrahimhabibeg/pdfchat"><img src="https://img.shields.io/badge/GitHub-Page-blue?logo=github" alt="GitHub Page"></a>
 </p>
 
 <hr/>
